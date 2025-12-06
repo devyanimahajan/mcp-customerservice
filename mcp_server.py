@@ -322,5 +322,4 @@ async def tools_call(body: Dict[str, Any]):
 if __name__ == "__main__":
     import uvicorn
 
-    # Example: uvicorn mcp_server:app --host 0.0.0.0 --port 8000 --reload
-    uvicorn.run("mcp_server:app", host="0.0.0.0", port=8000, port=8000, reload=True)
+    uvicorn.run("mcp_server:app", host="0.0.0.0", port=8000, reload=True)
